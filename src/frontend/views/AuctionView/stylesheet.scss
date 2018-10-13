@@ -1,0 +1,148 @@
+@import "~/common/stylesheet/index";
+
+.auction_view {
+  flex: 1;
+  width: 100vw;
+  display: flex;
+  align-items: stretch;
+
+  .status {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $height-header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: $theme-lighter;
+    pointer-events: none;
+
+    .big {
+      font-size: 2rem;
+    }
+  }
+
+  .problem_panel {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: $theme-light;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+
+    > * {
+      flex-shrink: 0;
+    }
+
+    .image {
+      height: 20rem;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 1rem;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: $theme-dark;
+      font-weight: bold;
+    }
+
+    .content {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: $theme-dark;
+    }
+
+    .sample {
+      position: relative;
+      border-radius: 2px;
+      padding: 1.4rem !important;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      margin-right: .4rem;
+    }
+  }
+
+  .status_panel {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: $theme-dark;
+
+    .versus {
+      height: $height-header;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $theme-lighter;
+      font-size: 1.2rem;
+    }
+  }
+
+  .ide_panel {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+
+    &:hover {
+      box-shadow: 0 0 12px rgba(0, 0, 0, .6);
+    }
+
+    .player {
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    .log {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin: 4px;
+      }
+    }
+
+    .toolbar {
+      height: $height-header;
+      display: flex;
+
+      .button {
+        color: $theme-lighter;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $theme-dark;
+      }
+
+      .run {
+        flex: 1;
+        background-color: $theme-green;
+      }
+
+      .exit {
+        width: 8rem;
+        background-color: $theme-red;
+      }
+
+      .submit {
+        flex: 1;
+        background-color: $theme-green;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "~/common/stylesheet/index";
+
+.image_uploader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $theme-normal center;
+  background-size: cover;
+
+  input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  &.uploaded {
+    span {
+      display: none;
+    }
+  }
+}

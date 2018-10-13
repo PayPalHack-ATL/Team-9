@@ -1,0 +1,21 @@
+{
+  "name": "BidPal",
+  "short_name": "BidPal",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#382a1f",
+  "background_color": "#382a1f",
+  "description": "BidPal is a platform for coders to compete real-time. After 2 to 8 players join, a random algorithm problem is given. Each player writes his/her own bid within 3 minutes. Once everyone submits (or gives up), they vote for the most creative bid. BidPal lets users learn from others while having fun.",
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}
