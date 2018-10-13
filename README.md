@@ -1,6 +1,6 @@
-# BidPay - A quick way to earn money by auctioning items to your friends
+# BidPal - A quick way to earn money by auctioning items to your friends
 
-[![Alt text](https://img.youtube.com/vi/xYHUSks9TAY/0.jpg)](https://www.youtube.com/watch?v=xYHUSks9TAY)
+[![BidPal Demo](https://raw.githubusercontent.com/PayPalHack-ATL/Team-9/master/src/frontend/static/img/thumbnail.png)](https://www.youtube.com/watch?v=xYHUSks9TAY)
 
 ## Inspiration
 Maybe you got a new smartphone, a new laptop, or anything. But you still have your old, functional device, and you don't want to throw it away. So, the best course of action is to sell it to someone!
